@@ -419,6 +419,63 @@ body {
     font-weight: 600;
 }
 
+/* ---- Outils ---- */
+.outils {
+    padding: 100px 0;
+    background: var(--night);
+}
+.outils .section-title {
+    color: var(--white);
+}
+.outils .section-subtitle {
+    color: rgba(255,255,255,0.6);
+}
+.outils-architecture {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.outils-layer {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    text-align: center;
+}
+.outils-layer:hover {
+    background: rgba(255,255,255,0.1);
+}
+.outils-layer-title {
+    font-size: 1.1rem;
+    color: var(--leaf);
+    margin-bottom: 4px;
+}
+.outils-layer-desc {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 16px;
+}
+.outils-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.outil {
+    background: rgba(92,184,122,0.15);
+    color: var(--leaf);
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid rgba(92,184,122,0.25);
+}
+.outils-connector {
+    text-align: center;
+    color: rgba(255,255,255,0.2);
+    font-size: 1.2rem;
+    padding: 8px 0;
+}
+
 /* ---- Fondateur ---- */
 .fondateur {
     padding: 100px 0;
