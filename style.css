@@ -187,6 +187,10 @@ body {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
+.pillar-svg {
+    width: 72px;
+    height: 72px;
+}
 .pillar h3 {
     font-size: 1.3rem;
     font-weight: 700;
