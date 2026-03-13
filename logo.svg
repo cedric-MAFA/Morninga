@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--
+  Moringa Venture — Logo Officiel
+  Concept : Monogramme MV + Feuille
+  Version : 1.0 — Mars 2026
+  Couleurs : #0F2318 (fond) · #5CB87A (feuille) · #FFFFFF (M)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+  <defs>
+    <style>
+      .bg-dark { fill: #0F2318; }
+      .m-white  { fill: none; stroke: #FFFFFF; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+      .leaf     { fill: #5CB87A; }
+      .leaf-vein{ fill: none; stroke: #0F2318; stroke-width: 1.5; stroke-linecap: round; opacity: 0.45; }
+      .wordmark { font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 3; fill: #FFFFFF; }
+      .tagline  { font-family: Arial, Helvetica, sans-serif; font-weight: 400; letter-spacing: 2; fill: #5CB87A; }
+    </style>
+  </defs>
+
+  <!-- =========================================================
+       ICÔNE — Carré arrondi (80×80, coins r=18)
+  ========================================================= -->
+  <g id="icon">
+    <!-- Fond carré arrondi -->
+    <rect x="0" y="0" width="80" height="80" rx="18" ry="18" class="bg-dark"/>
+
+    <!-- Lettre M (tracé épais blanc) -->
+    <path class="m-white"
+          d="M 10,66  L 10,18  L 40,52  L 70,18  L 70,66"/>
+
+    <!-- Feuille de moringa — pousse depuis la pointe du M -->
+    <path class="leaf"
+          d="M 40,52
+             C 31,36 33,18 40,6
+             C 47,18 49,36 40,52 Z"/>
+
+    <!-- Nervure centrale de la feuille -->
+    <line class="leaf-vein" x1="40" y1="8" x2="40" y2="50"/>
+  </g>
+
+  <!-- =========================================================
+       WORDMARK — "Moringa Venture" + tagline
+  ========================================================= -->
+  <g id="wordmark" transform="translate(96, 0)">
+    <!-- Fond étendu (optionnel, transparent par défaut) -->
+
+    <!-- Nom principal -->
+    <text class="wordmark" x="0" y="46" font-size="26">MORINGA VENTURE</text>
+
+    <!-- Séparateur -->
+    <line x1="2" y1="56" x2="300" y2="56" stroke="#5CB87A" stroke-width="1" opacity="0.4"/>
+
+    <!-- Tagline -->
+    <text class="tagline" x="2" y="72" font-size="11" letter-spacing="3">Strategic Advisory</text>
+  </g>
+
+</svg>
