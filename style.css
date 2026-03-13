@@ -258,11 +258,7 @@ body {
     transform: translateY(-4px);
     box-shadow: 0 12px 40px rgba(0,0,0,0.1);
 }
-.expertise-card:last-child {
-    grid-column: 1 / -1;
-    max-width: 600px;
-    margin: 0 auto;
-}
+/* 4 cartes = grille 2x2 parfaite */
 .expertise-icon {
     font-size: 2rem;
     margin-bottom: 16px;
@@ -305,6 +301,12 @@ body {
     border-left: 3px solid var(--leaf);
     padding-left: 16px;
     margin-top: 16px;
+}
+.expertise-detail {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-top: 12px;
+    line-height: 1.7;
 }
 
 /* ---- Afrique ---- */
