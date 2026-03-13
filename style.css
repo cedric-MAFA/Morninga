@@ -463,18 +463,18 @@ body {
 .outil {
     background: rgba(92,184,122,0.15);
     color: var(--leaf);
-    padding: 8px 18px;
+    padding: 14px 24px;
     border-radius: 100px;
-    font-size: 0.85rem;
+    font-size: 1.05rem;
     font-weight: 600;
     border: 1px solid rgba(92,184,122,0.25);
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
 }
 .outil-logo {
-    height: 16px;
-    width: 16px;
+    height: 22px;
+    width: 22px;
     object-fit: contain;
 }
 .outils-connector {
